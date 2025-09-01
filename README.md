@@ -13,20 +13,20 @@ python -m pip install -r requirements.txt
 2. Run the script from the project directory. Full path and personal username are redacted below:
 
 ```bash
-cd '/Users/<redacted>/Desktop/Desktop - <redacted>\u2019s MacBook Pro/chappelleroan_dancemoves' \
-&& /Users/<redacted>/.pyenv/versions/3.11.5/bin/python stickman_from_video.py -i hottogo.mp4 -o hottogo_stickman.mp4 --overlay
+cd '/Users/<redacted>/Desktop/Desktop - <redacted>\u2019s MacBook Pro/folder' \
+&& /Users/<redacted>/.pyenv/versions/3.11.5/bin/python stickman_from_video.py -i video.mp4 -o video_stickman.mp4 --overlay
 ```
 
 3. Portable alternative (if your Python is on PATH or using a venv):
 
 ```bash
-cd /path/to/chappelleroan_dancemoves
-python stickman_from_video.py -i hottogo.mp4 -o hottogo_stickman.mp4 --overlay
+cd /path/to/directory
+python stickman_from_video.py -i video.mp4 -o video_stickman.mp4 --overlay
 ```
 
 ## Outputs
 
-- The `-o/--output` argument specifies the white-background stickman output file (e.g. `hottogo_stickman.mp4`).
+- The `-o/--output` argument specifies the white-background stickman output file (e.g. `video.mp4`).
 - If `--overlay` is provided, the script also writes an overlay video named `<output>_overlay.mp4` (stickman drawn over the original frames).
 
 ## Notes
